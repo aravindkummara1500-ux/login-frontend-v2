@@ -24,7 +24,7 @@ phases:
   commands:
    - echo Pushing Image
    - docker push $IMAGE_URI
-   - printf '[{"name":"frontend","imageUri":"%s"}]' $IMAGE_URI > imagedefinitions.json
+   - printf '[{"name":"loginapp","imageUri":"%s"}]' $IMAGE_URI > imagedefinitions.json
 
 artifacts:
  files:
